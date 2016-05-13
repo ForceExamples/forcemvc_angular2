@@ -1,0 +1,9 @@
+name: fmvc_angular2
+version: 0.0.1
+description: Demonstration how Angular 2 does not play nice with Forcemvc.
+dependencies:
+  forcemvc: any
+  angular2: any
+transformers:
+- angular2:
+    entry_points: web/main.dart
